@@ -17,3 +17,6 @@ FROM Person.Person
 WHERE BusinessEntityID IN (2, 7, 13);
 
 -- Iniciando estudos 'LIKE'
+SELECT *
+FROM Person.Person
+WHERE FirstName LIKE '%to';
